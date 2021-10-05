@@ -2,6 +2,7 @@
 text-shadow:none !important;
 filter:none !important;
 -ms-filter:none !important;
+color: #000 !important;
 }
 
 header{
@@ -12,17 +13,34 @@ header{
 	display: block;
 }
 
-.item {
-	width: 100%;
-}
 main, aside{
 	padding: 5px;
+	width: 100%;
 }
 
+aside{
+	max-width:1100px ;
+}
 
+/******** toda parte dentro do main - escolaridade/cargos/certificados *********/
+
+.group {
+	width: 95%;
+	padding: 10px;
+}
+
+.subgroup{
+	padding:5px; 
+}
+
+#certificate h4, #certificate p {
+	display: inline-block;
+}
+#job{
+	page-break-before: always;
+}
 
 /******* barra lateral com os contatos, habilidades e qualificações ********/
-
 
 .ltbar {
 	width: 90%;
@@ -50,16 +68,22 @@ main, aside{
 	display: inline-block;
 }
 
-/******** toda parte dentro do main - escolaridade/cargos/certificados *********/
-
-.group {
-	width: 95%;
+.fixed {
+	position: relative;
 }
 
-.subgroup{
-	padding:5px; 
+/******* Footer ********/
+
+#printButton{
+	display: none;
 }
 
-#certificate h4, #certificate p {
-	display: inline-block;
+#printImg{
+	display: block;
+	float: left;
+}
+
+#printImg p{
+	margin: 0;
+	text-align: center;
 }

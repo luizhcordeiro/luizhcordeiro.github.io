@@ -7,6 +7,8 @@
 	list-style-type:none;
 }
 
+
+
 body{font-family:Calibri, sans-serif; }
 
 #wrap{
@@ -31,8 +33,15 @@ main{
 aside{
 	float: left;
 	width: 30%;
+	max-width: 350px;
 	padding: 10px;
 	background-color: #E0F2F7;
+}
+
+footer {
+	width: 100%;
+	clear: both;
+	padding: 10px;
 }
 
 h1{
@@ -126,3 +135,21 @@ p, a { color: #0d0d0f; }
 #ability h4{
 	margin-top: 10px
 }	
+
+.fixed {
+	position: fixed;
+	top: 0;
+}
+
+/******* Footer ********/
+
+#printButton{
+	display: block;
+	float: right;
+	margin: 0 10px;
+}
+
+#printImg{
+	display: none;
+}
+
