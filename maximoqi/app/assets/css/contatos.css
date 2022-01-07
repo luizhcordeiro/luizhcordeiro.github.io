@@ -1,0 +1,20 @@
+.contatos {width:50%; float:left;}
+h2{ margin:5px; padding: 5px;}
+	main h3 {color: #225ca1; font-size:1.5em; text-align:left;}
+
+	main form {width:90%; margin:0; margin-left:2%}
+		main fieldset {margin-top:0;}
+			main fieldset h3{color:#FFF; font-size:1.1em; text-align:center !important}
+			main textarea {display:block; width:80%; margin-left:5%;}
+			#mensagem {width:90% !important;}
+	
+	.linha {margin-bottom:2%;}
+	.contatos p {font-size:1.2em;}
+	
+#mapa {width:100%; float:left; margin-bottom:2px;}
+	#mapagoogle{width:100%; height:17em;}
+	
+@media only screen and (max-width: 600px){
+	.contatos {width:100%}
+	main form {margin:0 auto !important;}
+}

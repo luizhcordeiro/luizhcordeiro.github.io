@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+fieldset{
+	//display:none;
+	
+	background:#225ca1;
+	margin-top:2%;
+	border: none;
+}
+legend{
+	font-size:1.4em;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	background: #225ca1;
+	padding-bottom:1%;
+	width:100%;
+	margin:0;
+}
+#formularioMatricula{
+	width:75%;
+	margin:2% auto;
+	text-adjust:bottom;
+}
+	#formularioMatricula label,#formularioMatricula input,#formularioMatricula select,#formularioMatricula button {
+		margin-top:1%;
+	}
+
+#formularioMatricula label{
+	//border:1px solid red;
+display:block;
+width:10%;
+margin-left:5%;
+float:left;
+min-width:130px;
+clear:left;
+font-size:1.1em;
+padding-top:0.3em;
+//display:table-cell;
+//vertical-align:bottom;
+color:#fff;
+}
+
+#formularioMatricula input, select{
+	width:50%;
+	//margin-right:32%;
+	float:left;
+	min-width:260px;
+	height:1.8em;
+	border:1px solid #225ca1;
+	clear:right;
+}
+#formularioMatricula select{
+	max-width:330px;
+}
+#formularioMatricula button{
+	display:block;
+	float:left;
+	width:40%;
+	min-height:2em;
+	margin-left:9%;
+	margin-right:1%;
+	color:#225ca1;
+	background: #fff;
+	font-weight:bold;
+	border:none;
+	margin-bottom:1%;
+	
+}
+	#formularioMatricula button:hover{
+		color: red;
+		border: 2px solid red;
+	}
+
+ input[type="radio"]{
+	width:1.2em	!important;
+	height:1.2em	!important;
+	min-width:4px !important;
+	margin-right:2px !important;
+	
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+input[type="date"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  //  display: none;
+}
+.resetaRadio{
+	width:95% !important;padding-top:0 !important;
+}
+
+.resetaRadio label{
+	clear:none !important;padding-top:0 !important;
+	
+}
+.resetaRadio p {
+	display:block;
+	float:left;
+	margin:0 2px;
+	min-width:130px;
+	width:10%;
+	padding-top:0.5em;
+}
+#naturalidade{
+	display:none;
+}
+
+
+.resetaBotao{
+	//border:1px solid red;
+	width:100%;
+	height:5px;
+	float:left;
+} 
+#semJS1, #semJS, #alertaErro {
+	color:#fff;
+	margin:1%;
+	display:block;
+}
+
+#matriculaok p{
+	font-size:1.4em
+}
+
+.sumir label, .sumir input, .sumir button ,.sumir  select, .sumir p{display:none !important;}
+@media only screen and (max-width: 700px){
+	#formularioMatricula{width:85%}
+}
+
+@media only screen and (max-width: 581px){
+	
+	#formularioMatricula input, #formularioMatricula select, #formularioMatricula label, formularioMatricula button {
+		Margin: 0.5% auto; float:none; //clear:none;
+	}
+	#formularioMatricula input, #formularioMatricula select, .resetaRadio p{
+		width:90%
+	}
+	formularioMatricula label{
+		text-align:center;
+	}
+	#formularioMatricula button{
+		margin:1% 2%; width:46%;
+	}
+	
+	.resetaRadio{height:4em !important;}
+	
+	.resetaRadio label{float:left !important;}
+	
+	
+		
+	}
+}
+
