@@ -87,6 +87,10 @@ aside{
 	float: left;
 }
 
+#printImg img {
+	width: 200px;
+}
+
 #printImg p{
 	margin: 0;
 	text-align: center;
